@@ -45,4 +45,22 @@
   height:5vh;
   position:relative;
   top:2vh;
+  animation: slidesa-down 1s ease forwards;
+}
+#phone-container p,#email-container p{
+  position:absolute;
+  left:12vw;
+  top:0.7vh;
+  font-size:4vw;
+}
+@keyframes slidesa-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }

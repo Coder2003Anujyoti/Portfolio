@@ -29,7 +29,11 @@
   left:7vh;
   border-radius:5vw;
   box-shadow: #f32170 0vw 2vw 4vw;
+  transition: transform 0.3s ease-in-out;
   animation: slide-down 1s ease forwards;
+  &:hover{
+  transform:scale(1.1);
+}
 }
 @keyframes slide-down {
   0% {

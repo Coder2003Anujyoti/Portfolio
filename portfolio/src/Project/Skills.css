@@ -7,6 +7,9 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
+body{
+  overflow-y:scroll;
+}
 #skill-images{
   width:0vw;
   height:106vh;
