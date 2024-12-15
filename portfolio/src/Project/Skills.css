@@ -1,0 +1,98 @@
+#heading-text{
+  font-size:8.5vw;
+  position:absolute;
+  top:8vh;
+  left:32vw;
+  background: linear-gradient(to right, #C6EA8D, #4E65FF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#skill-images{
+  width:0vw;
+  height:106vh;
+  position:absolute;
+  top:22vh;
+  display:flex;
+ flex-wrap:wrap;
+ flex-direction:;
+ gap:9vw;
+}
+#skill-images img{
+  width:15vw;
+  height:8vh;
+  position:relative;
+  left:13vw;
+  transition: transform 0.3s ease-in-out;
+  animation: slide-down 1s ease forwards;
+&:hover{
+  transform:scale(1.1);
+}
+}
+#box-container{
+  width:50vw;
+  height:0vh;
+  position:absolute;
+  top:25vh;
+  display:flex;
+ flex-wrap:wrap;
+ flex-direction:;
+ gap:12.8vh;
+ left:32vw;
+}
+#html-box,#css-box,#js-box,#react-box,#redux-box,#c-box,#python-box,#ts-box{
+  width:65vw;
+  height:1vh;
+  background-color:black;
+  border-radius:25vw;
+}
+#html{
+  width:45vw;
+  height:1vh;
+  background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);;
+  border-radius:25vw;
+
+}
+#css{
+  width:45vw;
+  height:1vh;
+  background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+  border-radius:25vw;
+}
+#js{
+  width:35vw;
+  height:1vh;
+  background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+  border-radius:25vw;
+}
+#react{
+  width:35vw;
+  height:1vh;
+  background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+  border-radius:25vw;
+}
+#redux{
+  width:15vw;
+  height:1vh;
+  background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+  border-radius:25vw;
+}
+#c{
+  width:40vw;
+  height:1vh;
+  background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+  border-radius:25vw;
+}
+#python{
+  width:15vw;
+  height:1vh;
+  background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+  border-radius:25vw;
+}
+#ts{
+  
+  width:35vw;
+  height:1vh;
+  background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+  border-radius:25vw;
+
+}

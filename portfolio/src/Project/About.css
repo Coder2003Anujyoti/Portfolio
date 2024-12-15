@@ -1,0 +1,37 @@
+#profile-container{
+  width:100vw;
+  height:42vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:absolute;
+  top:11vh;
+}
+#profile-container img{
+  width:70vw;
+  height:35vh;
+  border-radius:50vw;
+  position:absolute;
+  top:1vh;
+  box-shadow: #f32170 0vw 2vw 4vw;
+  animation: slides-down 1s ease forwards;
+}
+@keyframes slides-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+#info{
+  width:90vw;
+  position:absolute;
+  top:49vh;
+  font-weight:bolder;
+  left:5vw;
+  font-size:3.5vw;
+}

@@ -1,0 +1,48 @@
+#contact-heading{
+  font-size:8.5vw;
+  background: linear-gradient(to right, #FF61D2, #1EAE98);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  position:absolute;
+  top:8vh;
+  left:27vw;
+}
+#work-header{
+  position:absolute;
+  top:15vh;
+  left:5vw;
+  font-size:6vw;
+}
+#work-msg{
+  position:absolute;
+  top:24vh;
+  left:5vw;
+  width:90vw;
+  font-size:4vw;
+}
+#phone-container{
+  width:100vw;
+  height:10vh;
+  display:flex;
+  flex-direction:row;
+  position:absolute;
+  top:48vh;
+  left:5vw;
+  gap:3vw;
+}
+#email-container{
+  width:100vw;
+  height:10vh;
+  display:flex;
+  flex-direction:row;
+  position:absolute;
+  top:55vh;
+  left:5vw;
+  gap:3vw;
+}
+#phone-container img,#email-container img{
+  width:10vw;
+  height:5vh;
+  position:relative;
+  top:2vh;
+}
