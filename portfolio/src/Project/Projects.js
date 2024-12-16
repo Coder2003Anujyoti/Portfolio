@@ -33,7 +33,7 @@ const Projects = () => {
        <div id="project-1">
   <a href="https://coder2003anujyoti.github.io/Pokedex/" target="_blank"><img src="Images/Pokemon.jpg"  /></a>
   <h1>Pokedex App</h1>
-    <p>Welcome to the Pokedex App! It is an API inbuilt app.Here you get different variety of pokemons along with their stats and many more. Let's enjoy it by explore it.</p>
+    <p>Welcome to the Pokedex App! It is an API inbuilt app.Here you get different variety of pokemons along with their stats. Let's enjoy it by explore it.</p>
   </div>
   
 
