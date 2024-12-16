@@ -47,13 +47,15 @@ body{
   height:1vh;
   background-color:black;
   border-radius:25vw;
+  font-size:4vw;
+  font-weight:bolder;
 }
 #html{
   width:45vw;
   height:1vh;
   background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);;
   border-radius:25vw;
-
+  
 }
 #css{
   width:45vw;
