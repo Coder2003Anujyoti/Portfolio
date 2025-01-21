@@ -1,31 +1,46 @@
 import React from "react";
-import './Skills.css'
-
 const Skills = () => {
   return (
-    <div id="skills-container">
-    <h1 id="heading-text">My Skills</h1>
-    <div id="skill-images">
-  <img src="images/html-5.png"  />
-    <img src="images/css-3.png"  />
-      <img src="images/js.png"  />
-        <img src="images/react.png"  />
-        <img src="images/redux.png"  />
-      <img src="images/C.png"  />
-      <img src="images/python.png" />
-      <img src="images/typescript.png" />
+    <>
+    <div className="w-full flex justify-center">
+    <h1 className="text-xl bg-gradient-to-r from-purple-500 to-pink-500 inline-block text-transparent bg-clip-text font-extrabold">My Skills</h1>
+    </div>
+    <div className="p-8 flex  flex-col gap-8 md:flex-col md:items-center">
+<div className="flex gap-2 flex-row text-white font-extrabold text-md">
+  <img src="images/html-5.png" className="w-8 h-8" />
+   <div className="w-96 flex bg-black rounded-full text-white"><div className="w-48 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full md:w-80 "></div></div>80%
+</div>
+<div className="flex gap-2 flex-row text-white font-extrabold text-md">
+  <img src="images/css-3.png" className="w-8 h-8" />
+   <div className="w-96 flex bg-black rounded-full text-white"><div className="w-48 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full md:w-80"></div></div>80%
+</div>
+<div className="flex gap-2 flex-row text-white font-extrabold text-md">
+  <img src="images/js.png" className="w-8 h-8" />
+   <div className="w-96 flex bg-black rounded-full text-white"><div className="w-36 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full md:w-60"></div></div>60%
+</div>
+<div className="flex gap-2 flex-row text-white font-extrabold text-md">
+  <img src="images/typescript.png" className="w-8 h-8" />
+   <div className="w-96 flex bg-black rounded-full text-white"><div className="w-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full md:w-20"></div></div>20%
+</div>
+<div className="flex gap-2 flex-row text-white font-extrabold text-md">
+  <img src="images/react.png" className="w-8 h-8" />
+   <div className="w-96 flex bg-black rounded-full text-white"><div className="w-36 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full md:w-60"></div></div>60%
+</div>
+<div className="flex gap-2 flex-row text-white font-extrabold text-md">
+  <img src="images/redux.png" className="w-8 h-8" />
+   <div className="w-96 flex bg-black rounded-full text-white"><div className="w-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full md:w-20"></div></div>20%
+</div>
+<div className="flex gap-2 flex-row text-white font-extrabold text-md">
+  <img src="images/nodejs.png" className="w-8 h-8" />
+   <div className="w-96 flex bg-black rounded-full text-white"><div className="w-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full md:w-20"></div></div>20%
+</div>
+<div className="flex gap-2 flex-row text-white font-extrabold text-md">
+  <img src="images/C.png" className="w-8 h-8" />
+   <div className="w-96 flex bg-black rounded-full text-white"><div className="w-48 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full md:w-80"></div></div>80%
+</div>
   </div>
-  <div id="box-container">
-   <div id="html-box"><div id="html"></div>80%</div>
-   <div id="css-box"><div id="css"></div>80%</div>
-    <div id="js-box"><div id="js"></div>60%</div>
-<div id="react-box"><div id="react"></div>60%</div>
-    <div id="redux-box"><div id="redux"></div>25%</div>
-   <div id="c-box"><div id="c"></div>80%</div>
-   <div id="python-box"><div id="python"></div>25%</div>
-      <div id="ts-box"><div id="ts"></div>60%</div>
-    </div>
-    </div>
+
+    </>
   );
 };
 
