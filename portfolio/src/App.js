@@ -19,12 +19,12 @@ function App() {
       <Routers>
           <div className="w-full flex items-center p-4 bg-[#081c29]">
           <div className="text-xl w-48  font-extrabold"> <h1 className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">My Portfolio</h1></div>
-    <div className="md:hidden w-full flex justify-end">   {!toggle && <> <img className="w-8 h-8"src="images/bar.png" onClick={()=>setToggle(!toggle)} id="toggle" /> 
+    <div className="lg:hidden w-full flex justify-end">   {!toggle && <> <img className="w-8 h-8"src="images/bar.png" onClick={()=>setToggle(!toggle)} id="toggle" /> 
        </>}
        {toggle && <>  <img src="images/closes.png" className="w-4 h-4" id="close" onClick={()=>setToggle(!toggle)} /></>}
        </div>
-      <div className="hidden md:w-full  md:flex md:flex-row">
-         <ul type="none" className="hidden md:w-full  md:flex md:flex-row md:justify-evenly md:text-white md:font-extrabold">
+      <div className="hidden lg:w-full  lg:flex lg:flex-row">
+         <ul type="none" className="hidden lg:w-full  lg:flex lg:flex-row lg:justify-evenly lg:text-white lg:font-extrabold">
         <li id="home"><Link id="link" 
          to="/">Home</Link></li>
       <li><Link id="link" to="/about">About</Link></li>
