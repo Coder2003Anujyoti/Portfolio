@@ -51,6 +51,10 @@ const Skills = () => {
   <img src="images/SQL.png" className="w-8 h-8" />
    <div className="w-96 flex bg-black rounded-full text-white"><div className="w-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full md:w-20"></div></div>20%
 </div>
+    <div className="flex gap-2 flex-row text-white font-extrabold text-md">
+  <img src="images/MongoDB.png" className="w-8 h-8" />
+   <div className="w-96 flex bg-black rounded-full text-white"><div className="w-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full md:w-20"></div></div>20%
+</div>
   </div>
 </div>
     </>
